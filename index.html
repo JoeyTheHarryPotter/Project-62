@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project 62</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section id="gallery">
+            <h1>Photo Gallery</h1>
+            <div class="line"></div>
+            <img src="Family%20Book.jpg" class="img-responsive">
+        </section>
+        <hr>
+        <section id="grid">
+            <h1>Grid Gallery</h1>
+            <div class="line"></div>
+            <img src="Mommy.JPG">
+
+            <img src="Daddy.jpg">
+
+            <img src="Joey.jpg">
+        </section>
+        <hr>
+        <h1>Sliding Gallery</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="Mommy.JPG" class="img-responsive">
+
+                        <div class="carousel-content">
+                            <p>Rose Uscio</p>
+                        </div>
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="Daddy.jpg">
+
+                        <div class="carousel-content">
+                            <p>Joseph Uscio</p>
+                        </div>
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="Joey.jpg" class="img-responsive">
+
+                        <div class="carousel-content">
+                            <p>Joseph Uscio</p>
+                        </div>
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div>
+</body>
+
+</html>
